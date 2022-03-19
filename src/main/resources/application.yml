@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: 123456789
+    url: jdbc:mysql://localhost:3306/recommend?serverTimezone=UTC&useUnicode=true&characterEnconding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.hyb.pojo # pojo别名扫描包
+  mapper-locations: classpath:com/hyb/mapper/*.xml #加载Mybatis映射文件
+
+
